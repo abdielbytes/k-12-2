@@ -8,7 +8,7 @@ Theme Color All Codes Variable
 }
 
 :root {
-    --theme-primary-color: #f74f71;
+    --theme-primary-color: #154cba;
     /* theme primary color */
 }
 
@@ -48,7 +48,7 @@ Theme Color All Codes Variable
 }
 
 :root {
-    --theme-primary-opacity-color: rgba(247, 79, 113, .8);
+    --theme-primary-opacity-color: rgba(79, 185, 247, 0.8);
     /* theme secondary color */
 }
 
