@@ -34,30 +34,6 @@
     <link rel="stylesheet" href="custom.css">
 </head>
 
-<style>
-    p {
-        text-align: left;
-
-    }
-
-    .shadw{
-        font-size: 1.75rem;
-        color: #000; /* Base text color */
-  font-weight: 400; /* Matches your class */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Initial shadow */
-  animation: glow 2s infinite; /* Applies the animation */
-}
-
-@keyframes glow {
-  0%, 100% {
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Default shadow */
-  }
-  50% {
-    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.6); /* Bigger, brighter shadow */
-  }
-}      
-</style>
-
 <body>
 
     <!--<div class="preloader">
@@ -66,8 +42,8 @@
 
     <div id="page_wrapper" class="bg-light">
         <!--============== Header Section Start ==============-->
-          <!--============== Header Section Start ==============-->
-          <header class="nav-on-banner bg-transparent fixed-bg-dark shadow-none md-bg-secondary">
+        <!--============== Header Section Start ==============-->
+        <header class="nav-on-banner bg-transparent fixed-bg-dark shadow-none md-bg-secondary">
             <div class="main-nav py-2 xs-p-0">
                 <div class="container">
                     <div class="row">
@@ -250,7 +226,6 @@
                 </div>
             </div>
         </header>
-        
         <!--============== Header Section End ==============-->
 
         <!--============== Slider Area Start ==============-->
@@ -258,25 +233,7 @@
             <div id="slider" class="overflow-hidden" style="width:1200px; height:720px; margin:0 auto;margin-bottom: 0px;">
                 <!-- Slide 1-->
                 <div class="ls-slide" data-ls="kenburnsscale:1.2; duration:12000;">
-                    <img width="1920" height="1080" src="assets/sch/img12.JPG" class="ls-bg" alt="">
-
-                    <div style=" top:-100px; left:-7%; text-align:right; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; height:140%; width:100%; opacity:1; border-radius: 50px; transform: rotate(20deg)" class="ls-l bg-primary ls-hide-phone"
-                        data-ls="showinfo:1; delayin:0; fadein:false; offsetxin:-100lw; offsetxout:left; easingout:easeInQuint; skewxout:-10;"></div>
-
-                    <div style="letter-spacing: -7px; top:90px; left:60px; text-align:right; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; font-family:Verdana; font-size:40px; height:2px; width:55px; opacity:.75; border-radius:10px;" class="ls-l bg-primary ls-hide-phone"
-                        data-ls="showinfo:1; durationin:1500; delayin:1000; fadein:false; clipin:0 100% 0 0; offsetxout:left;"></div>
-
-                    <p style="top:240px; left:310px; text-align:right; text-decoration:none; mix-blend-mode:normal; padding-right:20px; font-size: 20px; font-weight: 500" class="ls-l text-white ls-hide-phone" data-ls="showinfo:1; offsetxin:100lw; durationin:1500; delayin:500; transformoriginin:0% 50% 0; clipin:0 100% 0 0; offsetxout:left;">Our School Roninal</p>
-
-                    <h2 style="top:280px; left:0px; text-align:right; white-space: normal; width: 500px; text-decoration:none; mix-blend-mode:normal; color:#fff; padding-right:20px;" class="ls-l ls-hide-phone font-400" data-ls="showinfo:1; offsetxin:100lw; durationin:1500; delayin:1000; transformoriginin:0% 50% 0; clipin:0 100% 0 0; offsetxout:left;">Nurturing World Changers Through Holistic Education.</h2>
-
-                    <p style="top:400px; left:0px; width:500px; text-align:right; text-decoration:none; font-size: 16px; white-space:normal; mix-blend-mode:normal; line-height:28px; color:#fff; padding-right:20px;" class="ls-l ls-hide-phone" data-ls="showinfo:1; offsetxin:100lw; durationin:1500; delayin:2000; transformoriginin:0% 50% 0; clipin:0 100% 0 0; offsetxout:left;">
-                        Roninal International School provides exciting and stimulating learning methods which enable children to enjoy learning and grow up to be responsible people who will change their world positively.</p>
-
-                  
-                </div>
-                <div class="ls-slide" data-ls="kenburnsscale:1.2; duration:12000;">
-                    <img width="1920" height="1080" src="assets/sch/img23.JPG" class="ls-bg" alt="">
+                    <img width="1920" height="1080" src="assets/sch/img1.jpg" class="ls-bg" alt="">
 
                     <div style=" top:-100px; left:-7%; text-align:right; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; height:140%; width:100%; opacity:1; border-radius: 50px; transform: rotate(20deg)" class="ls-l bg-primary ls-hide-phone"
                         data-ls="showinfo:1; delayin:0; fadein:false; offsetxin:-100lw; offsetxout:left; easingout:easeInQuint; skewxout:-10;"></div>
@@ -296,7 +253,7 @@
 
                 <!-- Slide 2-->
                 <div class="ls-slide" data-ls="kenburnsscale:1.2; duration:12000;">
-                    <img width="1920" height="1080" src="assets/sch/img22.JPG" class="ls-bg" alt="">
+                    <img width="1920" height="1080" src="assets/sch/img30.png" class="ls-bg" alt="">
 
                     <div style="top:-100px; left:-7%; text-align:right; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; height:140%; width:100%; opacity:1; border-radius: 50px; transform: rotate(20deg)" class="ls-l bg-primary ls-hide-phone"
                         data-ls="showinfo:1; delayin:0; fadein:false; offsetxin:-100lw; offsetxout:left; easingout:easeInQuint; skewxout:-10;"></div>
@@ -313,119 +270,29 @@
 
 
             </div>
-            <div class="ls-slide" data-ls="kenburnsscale:1.2; duration:12000;">
-                <img width="1920" height="1080" src="assets/sch/img8.JPG" class="ls-bg" alt="">
-
-                <div style="top:-100px; left:-7%; text-align:right; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; height:140%; width:100%; opacity:1; border-radius: 50px; transform: rotate(20deg)" class="ls-l bg-primary ls-hide-phone"
-                    data-ls="showinfo:1; delayin:0; fadein:false; offsetxin:-100lw; offsetxout:left; easingout:easeInQuint; skewxout:-10;"></div>
-
-                <div style="letter-spacing: -7px; top:90px; left:60px; text-align:right; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:normal; font-family:Verdana; font-size:40px; height:2px; width:55px; opacity:.75; border-radius:10px;" class="ls-l bg-primary ls-hide-phone"
-                    data-ls="showinfo:1; durationin:1500; delayin:1000; fadein:false; clipin:0 100% 0 0; offsetxout:left;"></div>
-
-                <p style="top:240px; left:310px; text-align:right; text-decoration:none; mix-blend-mode:normal; padding-right:20px; font-size: 20px; font-weight: 500" class="ls-l text-white ls-hide-phone" data-ls="showinfo:1; offsetxin:100lw; durationin:1500; delayin:500; transformoriginin:0% 50% 0; clipin:0 100% 0 0; offsetxout:left;">Welcome to Roninal</p>
-
-                <h2 style="top:280px; left:0px; text-align:right; white-space: normal; width: 500px; text-decoration:none; mix-blend-mode:normal; color:#fff; padding-right:20px;" class="ls-l ls-hide-phone font-400" data-ls="showinfo:1; offsetxin:100lw; durationin:1500; delayin:1000; transformoriginin:0% 50% 0; clipin:0 100% 0 0; offsetxout:left;">Shaping the Future with Excellence in Education</h2>
-
-                <p style="top:400px; left:0px; width:500px; text-align:right; text-decoration:none; font-size: 16px; white-space:normal; mix-blend-mode:normal; line-height:28px; color:#fff; padding-right:20px;" class="ls-l ls-hide-phone" data-ls="showinfo:1; offsetxin:100lw; durationin:1500; delayin:2000; transformoriginin:0% 50% 0; clipin:0 100% 0 0; offsetxout:left;">Our truly secured, conducive and excellent learning and playing environment is most suitable for children‟s maximum security, safety and concentration. Children are given equal opportunities and attention needed to enable them to make the very best out of their potentials
-                    .</p>
-
-
-        </div>
         </div>
         <!--============== Slider Area End ==============-->
 
        
-         <!--=============== How It Work Section Start ===============-->
-         <div class="full-row pt-0" style="z-index:10;">
+        <!--============== About Us Section Start ==============-->
+        <div class="full-row">
             <div class="container">
-                <div class="row row-cols-lg-2 row-cols-1 dir-rtl">
-                    <div class="col px-5">
-                        <span class="text-primary mb-2 d-table tagline-2 text-uppercase font-600">Our Core Beliefs</span>
-                        <h2 class="text-dark mb-4">Raising world changers</h2> 
-                    </div>
-                    <div class="col p-5">
-                    
-                    </div>
-                </div>
-                <div class="row row-cols-lg-3 row-cols-1 dir-rtl">
+                <div class="row row-cols-md-2 row-cols-1 dir-rtl">
                     <div class="col">
-                        <div class="bg-white position-relative hover-bg-primary transation hover-text-white overflow-hidden p-50">
-                            <!-- <span class="shadow-text">01</span> -->
-                            <h4 class="mb-3 pt-4 text-dark font-400 shadw"> Our Mission</h4>
-                            
-                            <p>Our mission is to empower children with the knowledge, skill and values needed to become proactive world changers committed to life-long learning through a dynamic curriculum, innovative teaching method and collaborative learning</p>
-                            <!-- <a href="#" class="text-secondary text-uppercase border-bottom">Learn More</a> -->
-                        </div>
+                        <span class="text-primary mb-2 d-table tagline-2 font-medium font-600">Roninal International School</span>
+                        <h2 class="text-dark mb-4">Contact Us</h2>
+                        <p>
+                            We boast of highly qualified and trained teachers who are charming, efficient, and committed, dedicated, and are passionate about working with children, developing their potentials and giving children the opportunity to exhibit their abilities to the optimum best. Our teachers hold a strong believes of ability with the required opportunity results in great success. Our staffs are put through periodic training to keep them abreast with modern methodologies. 
+ 
+
+                        </p>
                     </div>
                     <div class="col">
-                        <div class="bg-white position-relative hover-bg-primary transation hover-text-white overflow-hidden p-50">
-                            <!-- <span class="shadow-text">03</span> -->
-                            <h4 class="mb-3 pt-4 text-dark font-400 shadw">Our Philosophy</h4>
-                            <p>Differential leaning: One child at a time 
-                                We put children first in all we do. 
-                                We develop the total child through moral uprightness and strong social values. We continually improve the quality of teaching and learning in other to raise achievement levels and meet international standards. We foster high esteem, confidence in children‟s ability and self worth among pupils</p>
-                            <!-- <a href="#" class="text-secondary text-uppercase border-bottom">Learn More</a> -->
-                        </div>
+                        <img src="assets/sch/img30.png" alt="uniland real estate">
                     </div>
-                    <div class="col">
-                        <div class="bg-white position-relative hover-bg-primary transation hover-text-white overflow-hidden p-50">
-                            <!-- <span class="shadow-text">02</span> -->
-                            <h4 class="mb-3 pt-4 text-dark font-400 shadw">Our Vision</h4>
-                            <p>To nurture compassionate and visionary children who ignite positive global change through a leadership centered holistic and progressive education</p>
-                            <!-- <a href="#" class="text-secondary text-uppercase border-bottom">Learn More</a> -->
-                        </div>
-                    </div>
-         
                 </div>
             </div>
         </div>
-        <div class="full-row bg-extra" style="margin-top:-250px; padding-top:220px;">
-            <div class="container">
-                <div class="row row-cols-lg-2 row-cols-1 dir-rtl">
-                    <div class="col px-5 mb-5">
-                        <div class="px-3">
-                            <span class="text-white mb-2 d-table tagline-2 text-uppercase font-600">Benefits</span>
-                            <h2 class="mb-4 text-white font-400">Take control of the future</h2>
-                            <!-- <a href="#" class="text-white text-uppercase border-bottom">Learn More</a> -->
-                        </div>
-                    </div>
-                    <div class="col px-3 mb-5">
-                        <div class="d-flex float-start text-white py-3 px-5">
-                            <span class="float-start d-table"><i class="flaticon-launch flat-small text-white"></i></span>
-                            <div class="pe-3">
-                                <h5 class="text-white mb-3 font-400">Our Drive</h5>
-                                <p>!!!Excellence! Excellence!! Excellence </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 
-                    : 
-
- 
-: 
--->
-                    <div class="col px-3 mb-5">
-                        <div class="d-flex float-start text-white py-3 px-5">
-                            <span class="float-start d-table"><i class="flaticon-plane flat-small text-white"></i></span>
-                            <div class="pe-3">
-                                <h5 class="text-white mb-3 font-400">SCHOOL PROGRAMME</h5>
-                                <p>Our programme course is designed to develop a high level of skills and competence in every child. We focus majorly on practical learning with less emphasis on theoretical learning across the school</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col px-3 mb-5">
-                        <div class="d-flex float-start text-white py-3 px-5">
-                            <span class="float-start d-table"><i class="flaticon-motivation flat-small text-white"></i></span>
-                            <div class="pe-3">
-                                <h5 class="text-white mb-3 font-400">CLASS SETTING</h5>
-                                <p>Our classrooms are airy, stimulating and accommodates up to 15 children per class to allow a good teacher to pupil ratio. Each class in the early years has two teachers, the lead teacher and the support teacher This is to ensure every child in the class is given full attention and obtain the needed support to grow both academically and socially</p>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div> 
-       </div>
         <!--============== Footer Section Start ==============-->
         <footer class="full-row p-0 footer-two bg-light">
             <div class="full-row">
